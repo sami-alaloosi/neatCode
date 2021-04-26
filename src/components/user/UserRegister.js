@@ -21,7 +21,7 @@ function UserRegister() {
   const axiosRegister = () => {
     axios
       .post(
-        `https://neatcode-backend.herokuapp.com/entry/register`,
+        `https://neatcode2.herokuapp.com/entry/register`,
         registerObj
       )
       .then((res) => {
